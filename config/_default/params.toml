@@ -127,9 +127,6 @@ disableImageOptimization = false
   # site = "ABC12345"
   # domain = "llama.yoursite.com"
 
-[umami]
-  api_key = ""
-
 
 [buymeacoffee]
   # identifier = ""

@@ -1,5 +1,5 @@
 {{ if hugo.IsProduction }}
-  <script defer src="https://analytics.eu.umami.is/script.js" data-website-id="{{ site.Params.umami.api_key }}"></script>
+  <script defer src="https://analytics.eu.umami.is/script.js" data-website-id="{{ getenv "HUGO_UMAMI_API_KEY" }}"></script>
 {{ end }}
 
 
